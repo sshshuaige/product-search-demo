@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .search {
+            text-align: center;
+            height: 200px;
+            width: 400px;
+            margin: 100px auto;
+            margin-bottom: 0;
+        }
+        .main {
+            margin: 0 auto;
+            
+        }
+        td {
+            height: 20px;
+            width: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="search">
+        根据价格进行查询：<br>
+        <input type="text" class="start">-<input type="text" class="end"><button class="search_price">搜索</button><br>
+        按照名字进行查询：<br>
+        <input type="text" class="pname"><button class="search_name">搜索</button>
+    </div>
+    <table class="main">
+        <thead><td>id</td><td>名字</td><td>价格</td></thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    
+</body>
+<script src="main.js"></script>
+</html>
